@@ -1,0 +1,10 @@
+:root {
+    --white : white;
+    --black : black;
+    --red : red;
+    --blue : blue;
+}
+.img1 {
+    width: 50vw;
+    height: 40vh;
+}

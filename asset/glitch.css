@@ -1,6 +1,12 @@
+:root {
+    --white : white;
+    --black : black;
+    --red : red;
+    --blue : blue;
+}
 /* glitch1 */
 .glitch1 {
-    color: white;
+    color: var(--white);
     font-size: 9em;
     position: relative;
     /* width: 400px; */
@@ -12,10 +18,10 @@
     content: attr(data-text);
     position: absolute;
     left: -2px;
-    text-shadow: 1px 0 blue;
+    text-shadow: 1px 0 var(--blue);
     top: 0;
-    color: white;
-    background: black;
+    color: var(--white);
+    background: var(--black);
     overflow: hidden;
     animation: noise-anim-2 15s infinite linear alternate-reverse;
   }
@@ -89,10 +95,10 @@
     content: attr(data-text);
     position: absolute;
     left: 2px;
-    text-shadow: -1px 0 red;
+    text-shadow: -1px 0 var(--red);
     top: 0;
-    color: white;
-    background: black;
+    color: var(--white);
+    background: var(--black);
     overflow: hidden;
     animation: noise-anim 2s infinite linear alternate-reverse;
   }
@@ -168,7 +174,7 @@
 
 /* glitch2 */
 .glitch2 {
-    color: white;
+    color: var(--white);
     font-size: 9em;
     position: relative;
     /* width: 400px; */
@@ -180,10 +186,10 @@
     content: attr(data-text);
     position: absolute;
     left: 2px;
-    text-shadow: -1px 0 red;
+    text-shadow: -1px 0 var(--red);
     top: 0;
-    color: white;
-    background: black;
+    color: var(--white);
+    background: var(--black);
     overflow: hidden;
     animation: noise-anim2 2s infinite linear alternate-reverse;
   }
@@ -257,10 +263,10 @@
     content: attr(data-text);
     position: absolute;
     left: -2px;
-    text-shadow: 1px 0 blue;
+    text-shadow: 1px 0 var(--blue);
     top: 0;
-    color: white;
-    background: black;
+    color: var(--white);
+    background: var(--black);
     overflow: hidden;
     animation: noise-anim2-2 15s infinite linear alternate-reverse;
   }
