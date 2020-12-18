@@ -19,3 +19,14 @@ body {
     width: 0;
     background: transparent;
   }
+
+  .img-container {
+    width: 60vw;
+    height: 50em;
+    position: relative;
+}
+
+.load-line {
+    background: var(--white)!important;
+    height: 2px!important;
+}

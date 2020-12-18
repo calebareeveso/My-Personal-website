@@ -28,8 +28,41 @@
     --blend-color-5: #af4949;
 }
 
-.img-container {
-    width: 60vw;
-    height: 50em;
-    position: relative;
+
+.tnone {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+    z-index: 2!important;
+    background: none;
+    padding-left: 5px;
+}
+
+.tnone:hover:before {
+        content: attr(data-text);
+        position: absolute;
+        left: -2px;
+        text-shadow: 1px 0 var(--blue);
+        top: 0;
+        color: var(--white);
+        background: var(--black);
+        overflow: hidden;
+        animation: noise-anim-2 15s infinite linear alternate-reverse;
+
+}
+  .tnone{
+      color: var(--white)!important;
+  }
+  .tnone:hover{
+      text-shadow: -1px 0 var(--red);
+      text-shadow: -1px 0 var(--red);
+  }
+.logo {
+    color: var(--white);
+    font-weight: 500;
+}
+
+.out {
+    z-index:2!important;
+    background: none;
 }
